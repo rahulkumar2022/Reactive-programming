@@ -3,6 +3,7 @@ package com.learn.ReactiveProgramming.student;
 
 import lombok.*;
 import org.springframework.data.annotation.Id;
+import org.springframework.data.relational.core.mapping.Column;
 import org.springframework.data.relational.core.mapping.Table;
 
 @Getter
@@ -14,8 +15,10 @@ import org.springframework.data.relational.core.mapping.Table;
 public class Student {
     @Id
     private Integer id;
+    @Column("firstname")
     private String firstName;
+    @Column("lastname")
     private String lastName;
-    private int age;
+    private Integer age;
 
 }
