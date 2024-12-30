@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.learn.ReactiveProgramming.ReactiveApppApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.910 s -- in com.learn.ReactiveProgramming.ReactiveApppApplicationTests
